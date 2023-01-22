@@ -1,0 +1,103 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hello, thanks for visiting",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon.",
+          "Hope we meet again"
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure","No Problem"]
+      },
+      {
+        "tag": "items",
+        "patterns": [
+          "Which servises do you provide?",
+          "What kinds of services are there?",
+          "What do you offer?","What are the services do you provide","Whar are the services available"
+        ],
+        "responses": [
+          "We provide many services such as: \nCleaning(Bathroom,Kitchen,Sofa,Carpet,Pest Control) \nReapair(AC, Geyser, Washing Machine, TV) \nHelpers(Electricians, Plumber, Carpenter, Painter)"
+        ]
+      },
+      {
+        "tag": "payments",
+        "patterns": [
+          "What payment methods do you use",
+          "What are the payment methods available",
+          "Do you take credit cards?",
+          "Do you accept Mastercard?",
+          "Can I pay with Paypal?",
+          "Do you accept UPI",
+          "Can i pay with UPI",
+          "Are you cash only?"
+        ],
+        "responses": [
+          "We accept Cash,VISA, Mastercard, UPI and Paypal",
+          "We accept most major credit/Debit cards,UPI,Cash and Paypal"
+        ]
+      },
+      {
+        "tag": "booking",
+        "patterns": [
+          "how can i book",
+          "how to do booking",
+          "how do i book",
+          "how to book a slot",
+          "how to book a service",
+          "how to book service",
+          "how to register for a service",
+          "how to use your services"
+        ],
+        "responses": [
+          "visit our website for booking: www.urbancompony.com",
+          "Just visit the link below and book your slots: www.urbancompony.com",
+          "Just visit the link below for booking: www.urbancompony.com"
+        ]
+      },
+      {
+        "tag": "funny",
+        "patterns": [
+          "Tell me a joke!",
+          "Tell me something funny!",
+          "Do you know a joke?"
+        ],
+        "responses": [
+          "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+          "What did the buffalo say when his son left for college? Bison."
+        ]
+      },
+      {
+        "tag": "Help",
+        "patterns": [
+          "I need help","help","help need","Talk to constomer executive","Talk to customer care executive"
+        ],
+        "responses":[
+          "For any queries contact us at: help@urbancompany.com",
+          "Reach us at: help@urbancompany.com"
+        ]
+      }
+    ]
+  }
